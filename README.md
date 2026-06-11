@@ -88,10 +88,6 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
   ```bash
   cognis-arsenal install compliance-atlas   # pip install cognis-compliance-atlas
   ```
-- **[hermes](https://github.com/cognis-digital/hermes)** — Model-agnostic, portable long-term memory framework for AI agents (MCP-native)
-  ```bash
-  cognis-arsenal install hermes   # pip install cognis-hermes
-  ```
 - **[locateanything](https://github.com/cognis-digital/locateanything)** — Infer where a photo was taken using a local uncensored vision + reasoning model (OSINT/geoint, 100% local)
   ```bash
   cognis-arsenal install locateanything   # pip install cognis-locateanything
@@ -128,7 +124,7 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
   ```bash
   cognis-arsenal install templates   # pip install cognis-templates
   ```
-- **[uncensored-fleet](https://github.com/cognis-digital/uncensored-fleet)** — Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, hermes memory, and a one-command CLI
+- **[uncensored-fleet](https://github.com/cognis-digital/uncensored-fleet)** — Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, engram memory, and a one-command CLI
   ```bash
   cognis-arsenal install uncensored-fleet   # pip install cognis-uncensored-fleet
   ```

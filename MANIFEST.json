@@ -1,7 +1,7 @@
 {
   "org": "cognis-digital",
   "raw_base": "https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/main",
-  "total": 287,
+  "total": 286,
   "sources_repo": "https://github.com/cognis-digital/cognis-sources",
   "tools": {
     "TGC": {
@@ -1433,17 +1433,6 @@
       "pipx": "pipx install git+https://github.com/cognis-digital/headerscan.git",
       "git": "pip install git+https://github.com/cognis-digital/headerscan.git",
       "docker": "docker run --rm ghcr.io/cognis-digital/headerscan:latest --help"
-    },
-    "hermes": {
-      "name": "hermes",
-      "domain": "Flagship",
-      "domain_label": "Flagship",
-      "desc": "Model-agnostic, portable long-term memory framework for AI agents (MCP-native)",
-      "repo_url": "https://github.com/cognis-digital/hermes",
-      "pip": "pip install cognis-hermes",
-      "pipx": "pipx install git+https://github.com/cognis-digital/hermes.git",
-      "git": "pip install git+https://github.com/cognis-digital/hermes.git",
-      "docker": "docker run --rm ghcr.io/cognis-digital/hermes:latest --help"
     },
     "hl7tap": {
       "name": "hl7tap",
@@ -3044,7 +3033,7 @@
       "name": "uncensored-fleet",
       "domain": "Flagship",
       "domain_label": "Flagship",
-      "desc": "Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, hermes memory, and a one-command CLI",
+      "desc": "Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, engram memory, and a one-command CLI",
       "repo_url": "https://github.com/cognis-digital/uncensored-fleet",
       "pip": "pip install cognis-uncensored-fleet",
       "pipx": "pipx install git+https://github.com/cognis-digital/uncensored-fleet.git",

@@ -1060,11 +1060,6 @@
     "url": "https://github.com/cognis-digital/awesome-cognis"
   },
   {
-    "description": "Model-agnostic, portable long-term memory framework for AI agents (MCP-native)",
-    "name": "hermes",
-    "url": "https://github.com/cognis-digital/hermes"
-  },
-  {
     "description": "Run simple YARA-style string/regex rules over a directory",
     "name": "yararun",
     "url": "https://github.com/cognis-digital/yararun"
@@ -1275,7 +1270,7 @@
     "url": "https://github.com/cognis-digital/windows-toolkit"
   },
   {
-    "description": "Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, hermes memory, and a one-command CLI",
+    "description": "Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, engram memory, and a one-command CLI",
     "name": "uncensored-fleet",
     "url": "https://github.com/cognis-digital/uncensored-fleet"
   },
