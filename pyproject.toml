@@ -32,8 +32,9 @@ Suite = "https://github.com/cognis-digital"
 cognis-arsenal = "install:main"
 
 [tool.hatch.build.targets.wheel]
-only-include = ["install.py", "MANIFEST.json"]
+only-include = ["install.py", "setup_wizard.py", "MANIFEST.json"]
 
 [tool.hatch.build.targets.wheel.force-include]
 "install.py" = "install.py"
+"setup_wizard.py" = "setup_wizard.py"
 "MANIFEST.json" = "MANIFEST.json"

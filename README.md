@@ -3,26 +3,52 @@
 > **The single full-kit entry point to the entire [Cognis Neural Suite](https://github.com/cognis-digital).**
 > Think *Hiren's BootCD PE*, but for the suite — every tool, one kit, multi-language installers.
 
-[![Tools](https://img.shields.io/badge/tools-287-2b6cb0.svg)](MANIFEST.json)
+[![Tools](https://img.shields.io/badge/tools-288-2b6cb0.svg)](MANIFEST.json)
 [![Domains](https://img.shields.io/badge/domains-28-6b46c1.svg)](#arsenal-index)
 [![License: COCL 1.0](https://img.shields.io/badge/License-COCL%201.0-2b6cb0.svg)](LICENSE)
 [![Suite](https://img.shields.io/badge/Cognis-Neural%20Suite-6b46c1.svg)](https://github.com/cognis-digital)
 [![CI](https://github.com/cognis-digital/cognis-arsenal/actions/workflows/ci.yml/badge.svg)](https://github.com/cognis-digital/cognis-arsenal/actions)
 
-The Cognis Neural Suite is **287 public, single-purpose, self-hostable, MCP-native tools** across **28 domains**. This repo is the one place to discover and install all of them — from one tool to an entire domain to the whole arsenal — using whatever package manager you already speak.
+The Cognis Neural Suite is **288 public, single-purpose, self-hostable, MCP-native tools** across **28 domains**. This repo is the one place to discover and install all of them — from one tool to an entire domain to the whole arsenal — using whatever package manager you already speak.
+
+## Get started — just run the wizard
+
+**New here? Don't memorize anything. Run the guided setup wizard:**
+
+```bash
+python install.py setup
+```
+
+It detects your OS and install backends (pip/pipx/git/docker), explains each step at your chosen depth, and lets you install the starter bundle, browse by domain, pick individual tools, or the whole suite — every command is shown and confirmed before it runs. Use `--dry-run` to preview without installing.
+
+One-line bootstrap (no checkout needed):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/master/setup.sh | bash          # Linux / macOS
+```
+
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/master/setup.ps1 | iex                 # Windows PowerShell
+```
+
+After `pip install`, the same wizard is the `setup` subcommand:
+
+```bash
+cognis-arsenal setup
+```
 
 ## Bootstrap (one-liners)
 
 **Linux / macOS** — install a single tool (e.g. `mcpscan`):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/main/install.sh | bash -s -- mcpscan
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/master/install.sh | bash -s -- mcpscan
 ```
 
 **Windows PowerShell** — pull the installer and run it:
 
 ```powershell
-irm https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/master/install.ps1 | iex
 ```
 
 **Cross-platform (Python)** — installs the `cognis-arsenal` console entry, then drives everything:
@@ -56,7 +82,7 @@ install.(sh|ps1|py) search <query>        # match name/domain/description
 
 ## Arsenal index
 
-_Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#ai-security--governance) (17) · [AI Agents & LLMOps](#ai-agents--llmops) (9) · [Blue Team](#blue-team) (6) · [Red Team](#red-team) (5) · [Security Operations](#security-operations) (30) · [Application Security](#application-security) (10) · [OSINT](#osint) (6) · [Federal & Compliance](#federal--compliance) (6) · [Compliance & GRC](#compliance--grc) (8) · [Privacy](#privacy) (7) · [Network Security](#network-security) (3) · [Information Integrity](#information-integrity) (4) · [Supply Chain Security](#supply-chain-security) (4) · [Developer Tools](#developer-tools) (10) · [Data & Datasets](#data--datasets) (8) · [DevOps & Observability](#devops--observability) (6) · [Business Ops](#business-ops) (10) · [Business Development](#business-development) (10) · [FinTech](#fintech) (10) · [Healthcare](#healthcare) (10) · [IoT / OT](#iot--ot) (10) · [Web3](#web3) (10) · [Defense Tech](#defense-tech) (15) · [Tactical](#tactical) (30) · [Defense & IC](#defense--ic) (12) · [Meta / Suite](#meta--suite) (3) · [Other / Resources](#other--resources) (9)
+_Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#ai-security--governance) (17) · [AI Agents & LLMOps](#ai-agents--llmops) (9) · [Blue Team](#blue-team) (6) · [Red Team](#red-team) (5) · [Security Operations](#security-operations) (30) · [Application Security](#application-security) (10) · [OSINT](#osint) (6) · [Federal & Compliance](#federal--compliance) (6) · [Compliance & GRC](#compliance--grc) (8) · [Privacy](#privacy) (7) · [Network Security](#network-security) (3) · [Information Integrity](#information-integrity) (4) · [Supply Chain Security](#supply-chain-security) (4) · [Developer Tools](#developer-tools) (10) · [Data & Datasets](#data--datasets) (8) · [DevOps & Observability](#devops--observability) (6) · [Business Ops](#business-ops) (10) · [Business Development](#business-development) (10) · [FinTech](#fintech) (10) · [Healthcare](#healthcare) (10) · [IoT / OT](#iot--ot) (10) · [Web3](#web3) (10) · [Defense Tech](#defense-tech) (15) · [Tactical](#tactical) (30) · [Defense & IC](#defense--ic) (12) · [Meta / Suite](#meta--suite) (4) · [Other / Resources](#other--resources) (9)
 
 ### Flagship (19)
 
@@ -87,6 +113,10 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
 - **[compliance-atlas](https://github.com/cognis-digital/compliance-atlas)** — Condensed, cross-walked reference for SOC2, ISO 27001, NIST CSF/800-53/800-171, CMMC, GDPR, CCPA, HIPAA, PCI DSS, EU AI Act
   ```bash
   cognis-arsenal install compliance-atlas   # pip install cognis-compliance-atlas
+  ```
+- **[hermes](https://github.com/cognis-digital/hermes)** — Model-agnostic, portable long-term memory framework for AI agents (MCP-native)
+  ```bash
+  cognis-arsenal install hermes   # pip install cognis-hermes
   ```
 - **[locateanything](https://github.com/cognis-digital/locateanything)** — Infer where a photo was taken using a local uncensored vision + reasoning model (OSINT/geoint, 100% local)
   ```bash
@@ -124,7 +154,7 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
   ```bash
   cognis-arsenal install templates   # pip install cognis-templates
   ```
-- **[uncensored-fleet](https://github.com/cognis-digital/uncensored-fleet)** — Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, engram memory, and a one-command CLI
+- **[uncensored-fleet](https://github.com/cognis-digital/uncensored-fleet)** — Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, hermes memory, and a one-command CLI
   ```bash
   cognis-arsenal install uncensored-fleet   # pip install cognis-uncensored-fleet
   ```
@@ -1232,11 +1262,15 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
   cognis-arsenal install stigsentry   # pip install cognis-stigsentry
   ```
 
-### Meta / Suite (3)
+### Meta / Suite (4)
 
 - **[awesome-cognis](https://github.com/cognis-digital/awesome-cognis)** — Awesome Cognis â€” curated list of the Cognis Neural Suite + upstream OSS
   ```bash
   cognis-arsenal install awesome-cognis   # pip install cognis-awesome-cognis
+  ```
+- **[cognis-arsenal](https://github.com/cognis-digital/cognis-arsenal)** — The Cognis Neural Suite arsenal â€” every tool, one kit, multi-language installers
+  ```bash
+  cognis-arsenal install cognis-arsenal   # pip install cognis-cognis-arsenal
   ```
 - **[cognis-digital](https://github.com/cognis-digital/cognis-digital)** — Config files for my GitHub profile.
   ```bash
@@ -1288,7 +1322,7 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
 
 ## Resources
 
-- **Suite hub:** [github.com/cognis-digital](https://github.com/cognis-digital) — all 287 repositories
+- **Suite hub:** [github.com/cognis-digital](https://github.com/cognis-digital) — all 288 repositories
 - **Curated sources & datasets:** [github.com/cognis-digital/cognis-sources](https://github.com/cognis-digital/cognis-sources)
 - **Machine-readable index:** [`MANIFEST.json`](MANIFEST.json)
 - **Cognis.Studio:** [cognis.studio](https://cognis.studio) — agents call every tool over MCP

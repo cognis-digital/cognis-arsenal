@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent
 SRC = Path(r"C:\Users\user\Desktop\cognis-digital-v5\cognis-digital-v5")
 GH = r"C:\Program Files\GitHub CLI\gh.exe"
 ORG = "cognis-digital"
-RAW = f"https://raw.githubusercontent.com/{ORG}/cognis-arsenal/main"
+RAW = f"https://raw.githubusercontent.com/{ORG}/cognis-arsenal/master"
 
 PRETTY = {
     "ai-agent": "AI Agents & LLMOps", "ai-security": "AI Security & Governance",
@@ -143,6 +143,36 @@ def write_readme(tools: dict):
     a(f"The Cognis Neural Suite is **{total} public, single-purpose, self-hostable, MCP-native tools** "
       f"across **{len(doms)} domains**. This repo is the one place to discover and install all of them — "
       "from one tool to an entire domain to the whole arsenal — using whatever package manager you already speak.")
+    a("")
+    # ---- recommended: guided wizard (TOP of the doc) ----
+    a("## Get started — just run the wizard")
+    a("")
+    a("**New here? Don't memorize anything. Run the guided setup wizard:**")
+    a("")
+    a("```bash")
+    a("python install.py setup")
+    a("```")
+    a("")
+    a("It detects your OS and install backends (pip/pipx/git/docker), explains each step "
+      "at your chosen depth, and lets you install the starter bundle, browse by domain, "
+      "pick individual tools, or the whole suite — every command is shown and confirmed before it runs. "
+      "Use `--dry-run` to preview without installing.")
+    a("")
+    a("One-line bootstrap (no checkout needed):")
+    a("")
+    a("```bash")
+    a(f"curl -fsSL {RAW}/setup.sh | bash          # Linux / macOS")
+    a("```")
+    a("")
+    a("```powershell")
+    a(f"irm {RAW}/setup.ps1 | iex                 # Windows PowerShell")
+    a("```")
+    a("")
+    a("After `pip install`, the same wizard is the `setup` subcommand:")
+    a("")
+    a("```bash")
+    a("cognis-arsenal setup")
+    a("```")
     a("")
     # ---- bootstrap one-liners ----
     a("## Bootstrap (one-liners)")

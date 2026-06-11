@@ -6,6 +6,7 @@ Consumes MANIFEST.json (next to this file, or downloaded from the suite) and
 installs tools by name, by domain, or all of them, via pip / pipx / git / docker.
 
 Usage:
+  cognis-arsenal setup                                      # guided wizard (start here)
   cognis-arsenal <tool|domain|all> [--method pip|pipx|git|docker] [--dry-run]
   cognis-arsenal list
   cognis-arsenal search <query>
@@ -111,7 +112,22 @@ def do_search(manifest: dict, query: str) -> int:
     return 0
 
 
-SUBCOMMANDS = ("list", "search", "install")
+def do_setup(dry_run: bool = False) -> int:
+    """Launch the guided setup wizard, pointed at this repo's MANIFEST.json."""
+    here = Path(__file__).resolve().parent
+    manifest = here / "MANIFEST.json"
+    try:
+        import setup_wizard  # local module, stdlib-only
+    except Exception:
+        # Ensure the repo dir is importable, then retry.
+        if str(here) not in sys.path:
+            sys.path.insert(0, str(here))
+        import setup_wizard  # type: ignore
+    mpath = str(manifest) if manifest.is_file() else None
+    return setup_wizard.run(manifest_path=mpath, dry_run=dry_run)
+
+
+SUBCOMMANDS = ("list", "search", "install", "setup")
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -119,6 +135,8 @@ def _build_parser() -> argparse.ArgumentParser:
                                 description="Installer + index for the Cognis Neural Suite.")
     p.add_argument("--version", action="version", version=f"cognis-arsenal {__version__}")
     sub = p.add_subparsers(dest="cmd")
+    ss = sub.add_parser("setup", help="launch the guided setup wizard (recommended)")
+    ss.add_argument("--dry-run", action="store_true")
     sub.add_parser("list", help="list every tool, grouped by domain")
     sp = sub.add_parser("search", help="search tools by name/domain/description")
     sp.add_argument("query")
@@ -159,6 +177,8 @@ def main(argv: list[str] | None = None) -> int:
         return do_install(select(manifest, target), method, dry)
 
     args = p.parse_args(argv)
+    if args.cmd == "setup":
+        return do_setup(getattr(args, "dry_run", False))
     manifest = load_manifest()
     if args.cmd == "list":
         return do_list(manifest)
