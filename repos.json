@@ -1,0 +1,1437 @@
+[
+  {
+    "description": "MCP server hardening linter \u00e2\u20ac\u201d capability declarations, transport, tool descriptions",
+    "name": "mcpharden",
+    "url": "https://github.com/cognis-digital/mcpharden"
+  },
+  {
+    "description": "C2 server fingerprinter \u00e2\u20ac\u201d Cobalt Strike, Sliver, Mythic, Havoc, Brute Ratel",
+    "name": "c2detect",
+    "url": "https://github.com/cognis-digital/c2detect"
+  },
+  {
+    "description": "Detect symlink-hijack / one-click-RCE / unsafe-trust settings in AI coding-agent projects",
+    "name": "trustgate",
+    "url": "https://github.com/cognis-digital/trustgate"
+  },
+  {
+    "description": "Consent-based SSRF probe harness for MCP servers that fetch URLs",
+    "name": "ssrfmcp",
+    "url": "https://github.com/cognis-digital/ssrfmcp"
+  },
+  {
+    "description": "Discover and map agent-to-agent / MCP communications and flag shadow AI",
+    "name": "agentmap",
+    "url": "https://github.com/cognis-digital/agentmap"
+  },
+  {
+    "description": "Scan MCP servers for RCE/SSRF/no-auth/tool-poisoning vulnerabilities",
+    "name": "mcpscan",
+    "url": "https://github.com/cognis-digital/mcpscan"
+  },
+  {
+    "description": "Drop-in token-auth gateway in front of unauthenticated MCP servers",
+    "name": "mcpauth",
+    "url": "https://github.com/cognis-digital/mcpauth"
+  },
+  {
+    "description": "Classify findings against Microsoft's AI-agent threat taxonomy with mitigations",
+    "name": "agenttax",
+    "url": "https://github.com/cognis-digital/agenttax"
+  },
+  {
+    "description": "Durable, model-agnostic long-term memory for AI agents \u00e2\u20ac\u201d stdlib, SQLite, MCP-native",
+    "name": "engram",
+    "url": "https://github.com/cognis-digital/engram"
+  },
+  {
+    "description": "Self-hosted canary token network \u00e2\u20ac\u201d AWS keys, DNS, docs, web URLs",
+    "name": "canarynet",
+    "url": "https://github.com/cognis-digital/canarynet"
+  },
+  {
+    "description": "EDR coverage & bypass detector \u00e2\u20ac\u201d reconciles MDM + EDR + AD inventories",
+    "name": "edrgap",
+    "url": "https://github.com/cognis-digital/edrgap"
+  },
+  {
+    "description": "RAG corpus poisoning detector \u00e2\u20ac\u201d embedding anomalies, backdoor triggers",
+    "name": "ragshield",
+    "url": "https://github.com/cognis-digital/ragshield"
+  },
+  {
+    "description": "Agentic workflow replay & audit with OTel GenAI semantic conventions",
+    "name": "agentlog",
+    "url": "https://github.com/cognis-digital/agentlog"
+  },
+  {
+    "description": "Embedded bias probe suite \u00e2\u20ac\u201d demographic / occupational / geographic",
+    "name": "biascope",
+    "url": "https://github.com/cognis-digital/biascope"
+  },
+  {
+    "description": "Generate canary URLs/tokens + a matcher for trip events",
+    "name": "honeyurl",
+    "url": "https://github.com/cognis-digital/honeyurl"
+  },
+  {
+    "description": "Grade HTTP security headers (CSP/HSTS/XFO) A-F from a response dump",
+    "name": "headerscan",
+    "url": "https://github.com/cognis-digital/headerscan"
+  },
+  {
+    "description": "Identify hash types and estimate crack cost/feasibility",
+    "name": "hashid",
+    "url": "https://github.com/cognis-digital/hashid"
+  },
+  {
+    "description": "Detect DNS/HTTP exfiltration patterns (entropy, beaconing) in logs",
+    "name": "exfilwatch",
+    "url": "https://github.com/cognis-digital/exfilwatch"
+  },
+  {
+    "description": "Aggregate email OSINT (breach hints, MX, SPF/DMARC posture)",
+    "name": "emailrecon",
+    "url": "https://github.com/cognis-digital/emailrecon"
+  },
+  {
+    "description": "Aggregate DNS recon (records, zone hints, takeover candidates)",
+    "name": "dnsrecon",
+    "url": "https://github.com/cognis-digital/dnsrecon"
+  },
+  {
+    "description": "Analyze web content-discovery output (ffuf/gobuster) into ranked endpoints",
+    "name": "dirsight",
+    "url": "https://github.com/cognis-digital/dirsight"
+  },
+  {
+    "description": "Generate and audit a Content-Security-Policy from a page's resources",
+    "name": "cspbuilder",
+    "url": "https://github.com/cognis-digital/cspbuilder"
+  },
+  {
+    "description": "Detect permissive/misconfigured CORS from headers or a config",
+    "name": "corsaudit",
+    "url": "https://github.com/cognis-digital/corsaudit"
+  },
+  {
+    "description": "Test an access-control matrix (role x endpoint) for IDOR/authz gaps",
+    "name": "authmatrix",
+    "url": "https://github.com/cognis-digital/authmatrix"
+  },
+  {
+    "description": "Map findings to MITRE ATT&CK techniques + coverage heatmap",
+    "name": "attackmap",
+    "url": "https://github.com/cognis-digital/attackmap"
+  },
+  {
+    "description": "Generate candidate YARA rules from sample files/strings",
+    "name": "yaragen",
+    "url": "https://github.com/cognis-digital/yaragen"
+  },
+  {
+    "description": "Hunt MITRE ATT&CK techniques across logs with a rule pack",
+    "name": "ttphunt",
+    "url": "https://github.com/cognis-digital/ttphunt"
+  },
+  {
+    "description": "Build a forensic super-timeline by merging & normalizing log/artifact CSVs",
+    "name": "timeliner",
+    "url": "https://github.com/cognis-digital/timeliner"
+  },
+  {
+    "description": "Scan Terraform plans/configs for misconfigurations",
+    "name": "tfscan",
+    "url": "https://github.com/cognis-digital/tfscan"
+  },
+  {
+    "description": "Build STIX 2.1 bundles from a list of IOCs/observables",
+    "name": "stixgen",
+    "url": "https://github.com/cognis-digital/stixgen"
+  },
+  {
+    "description": "Surface program-execution evidence from Windows Prefetch exports",
+    "name": "prefetchparse",
+    "url": "https://github.com/cognis-digital/prefetchparse"
+  },
+  {
+    "description": "Analyze an NTFS $MFT CSV for timestomping and suspicious file activity",
+    "name": "mftparse",
+    "url": "https://github.com/cognis-digital/mftparse"
+  },
+  {
+    "description": "Triage memory-dump artifacts: strings, IOCs, suspicious processes from a dump export",
+    "name": "memtriage",
+    "url": "https://github.com/cognis-digital/memtriage"
+  },
+  {
+    "description": "Identify true file types by magic bytes (beats extensions)",
+    "name": "magicid",
+    "url": "https://github.com/cognis-digital/magicid"
+  },
+  {
+    "description": "Audit Kubernetes manifests against CIS-style security rules",
+    "name": "k8saudit",
+    "url": "https://github.com/cognis-digital/k8saudit"
+  },
+  {
+    "description": "Score IOCs against offline reputation/allow lists with explainable verdicts",
+    "name": "iocrep",
+    "url": "https://github.com/cognis-digital/iocrep"
+  },
+  {
+    "description": "Lint cloud IAM policies (AWS/GCP/Azure JSON) for least-privilege violations",
+    "name": "iamlint",
+    "url": "https://github.com/cognis-digital/iamlint"
+  },
+  {
+    "description": "Analyze GraphQL introspection for risky fields, depth, and authz gaps",
+    "name": "graphqlmap",
+    "url": "https://github.com/cognis-digital/graphqlmap"
+  },
+  {
+    "description": "Audit a GitHub org's security posture (branch rules, 2FA, secrets) from an export",
+    "name": "ghaudit",
+    "url": "https://github.com/cognis-digital/ghaudit"
+  },
+  {
+    "description": "SecOps tool \u00e2\u20ac\u201d Cognis Neural Suite",
+    "name": "filecarve",
+    "url": "https://github.com/cognis-digital/filecarve"
+  },
+  {
+    "description": "Find brute-force, persistence & lateral-movement signals in exported Windows event logs",
+    "name": "evtxsift",
+    "url": "https://github.com/cognis-digital/evtxsift"
+  },
+  {
+    "description": "SecOps tool \u00e2\u20ac\u201d Cognis Neural Suite",
+    "name": "entropyscan",
+    "url": "https://github.com/cognis-digital/entropyscan"
+  },
+  {
+    "description": "Audit Dockerfiles + image configs for security smells",
+    "name": "dockeraudit",
+    "url": "https://github.com/cognis-digital/dockeraudit"
+  },
+  {
+    "description": "SecOps tool \u00e2\u20ac\u201d Cognis Neural Suite",
+    "name": "dmarcaudit",
+    "url": "https://github.com/cognis-digital/dmarcaudit"
+  },
+  {
+    "description": "Chainable encode/decode/transform pipeline (base64/hex/rot/xor/url/gzip)",
+    "name": "cyberbench",
+    "url": "https://github.com/cognis-digital/cyberbench"
+  },
+  {
+    "description": "Cloud security posture from a config export (public buckets, open SGs, weak IAM)",
+    "name": "cspm",
+    "url": "https://github.com/cognis-digital/cspm"
+  },
+  {
+    "description": "Audit Set-Cookie flags (Secure/HttpOnly/SameSite) from a response dump",
+    "name": "cookieaudit",
+    "url": "https://github.com/cognis-digital/cookieaudit"
+  },
+  {
+    "description": "Detect & crack classical ciphers (caesar/vigenere/xor) by scoring",
+    "name": "cipherdetect",
+    "url": "https://github.com/cognis-digital/cipherdetect"
+  },
+  {
+    "description": "Analyze Certificate-Transparency exports for subdomains & rogue issuance",
+    "name": "certsearch",
+    "url": "https://github.com/cognis-digital/certsearch"
+  },
+  {
+    "description": "Analyze exported browser history/downloads for IOCs and exfil signs",
+    "name": "browserforensics",
+    "url": "https://github.com/cognis-digital/browserforensics"
+  },
+  {
+    "description": "Map ASN/CIDR ownership & neighbors from whois/RIR exports",
+    "name": "asnmap",
+    "url": "https://github.com/cognis-digital/asnmap"
+  },
+  {
+    "description": "Lint OpenAPI specs for security gaps (authz, rate-limit, data exposure)",
+    "name": "apiseclint",
+    "url": "https://github.com/cognis-digital/apiseclint"
+  },
+  {
+    "description": "Active Directory attack path mapper \u00e2\u20ac\u201d minimum-cost paths + remediation priority",
+    "name": "redpath",
+    "url": "https://github.com/cognis-digital/redpath"
+  },
+  {
+    "description": "Pentest report generator \u00e2\u20ac\u201d YAML findings to CREST-grade PDF",
+    "name": "pwnreview",
+    "url": "https://github.com/cognis-digital/pwnreview"
+  },
+  {
+    "description": "Static malicious payload analyzer \u00e2\u20ac\u201d PE/ELF/LNK/macro/OneNote",
+    "name": "payloadlab",
+    "url": "https://github.com/cognis-digital/payloadlab"
+  },
+  {
+    "description": "Self-hosted password cracking queue \u00e2\u20ac\u201d multi-user hashcat with audit log",
+    "name": "crackq",
+    "url": "https://github.com/cognis-digital/crackq"
+  },
+  {
+    "description": "Personal asset & account inventory \u00e2\u20ac\u201d estate-planning-grade encrypted",
+    "name": "vaultmap",
+    "url": "https://github.com/cognis-digital/vaultmap"
+  },
+  {
+    "description": "Family phone stalkerware audit \u00e2\u20ac\u201d MVT-class iOS/Android forensics",
+    "name": "trackblock",
+    "url": "https://github.com/cognis-digital/trackblock"
+  },
+  {
+    "description": "Privacy-first local RAG over personal data \u00e2\u20ac\u201d encrypted, audit-logged",
+    "name": "recall",
+    "url": "https://github.com/cognis-digital/recall"
+  },
+  {
+    "description": "Hardened browser profile generator \u00e2\u20ac\u201d Firefox / LibreWolf / Brave",
+    "name": "privacyshell",
+    "url": "https://github.com/cognis-digital/privacyshell"
+  },
+  {
+    "description": "Automated data-broker opt-out engine \u00e2\u20ac\u201d top 50 brokers, CCPA/GDPR letters",
+    "name": "optout",
+    "url": "https://github.com/cognis-digital/optout"
+  },
+  {
+    "description": "Personal breach aggregator \u00e2\u20ac\u201d HIBP + DeHashed + stealer-log triage",
+    "name": "breachwatch",
+    "url": "https://github.com/cognis-digital/breachwatch"
+  },
+  {
+    "description": "Identity resolution dossier \u00e2\u20ac\u201d username/email/phone cross-platform",
+    "name": "personagraph",
+    "url": "https://github.com/cognis-digital/personagraph"
+  },
+  {
+    "description": "AIS vessel tracking & sanctions-evasion anomaly detection",
+    "name": "maritimeint",
+    "url": "https://github.com/cognis-digital/maritimeint"
+  },
+  {
+    "description": "Image geolocation toolkit \u00e2\u20ac\u201d EXIF, sun-shadow, OCR, reverse-search",
+    "name": "geolens",
+    "url": "https://github.com/cognis-digital/geolens"
+  },
+  {
+    "description": "Surface-web mirror of public Tor leak-site index for brand monitoring",
+    "name": "darkmirror",
+    "url": "https://github.com/cognis-digital/darkmirror"
+  },
+  {
+    "description": "Free-tier blockchain investigator \u00e2\u20ac\u201d ETH/BTC clustering + sanctions xref",
+    "name": "cryptotrace",
+    "url": "https://github.com/cognis-digital/cryptotrace"
+  },
+  {
+    "description": "Corporate structure & beneficial-ownership mapper",
+    "name": "corpmap",
+    "url": "https://github.com/cognis-digital/corpmap"
+  },
+  {
+    "description": "Self-hosted status page with incident timeline and subscribers",
+    "name": "statuskit",
+    "url": "https://github.com/cognis-digital/statuskit"
+  },
+  {
+    "description": "Synthetic uptime and Playwright checks exported to Prometheus",
+    "name": "probesite",
+    "url": "https://github.com/cognis-digital/probesite"
+  },
+  {
+    "description": "One-command OpenTelemetry collector + dashboards bundle",
+    "name": "otelbox",
+    "url": "https://github.com/cognis-digital/otelbox"
+  },
+  {
+    "description": "Kubernetes cost and rightsizing advisor with no Prometheus dependency",
+    "name": "k8scost",
+    "url": "https://github.com/cognis-digital/k8scost"
+  },
+  {
+    "description": "Multi-cloud cost report, anomaly detection, and FOCUS export",
+    "name": "cloudbill",
+    "url": "https://github.com/cognis-digital/cloudbill"
+  },
+  {
+    "description": "Alert dedup, correlation, and routing in front of Grafana / PagerDuty",
+    "name": "alertmux",
+    "url": "https://github.com/cognis-digital/alertmux"
+  },
+  {
+    "description": "Server-side outbound connection auditor \u00e2\u20ac\u201d eBPF/Falco wrapper",
+    "name": "egresswatch",
+    "url": "https://github.com/cognis-digital/egresswatch"
+  },
+  {
+    "description": "DNS posture & misconfiguration scanner \u00e2\u20ac\u201d SPF/DKIM/DMARC/DNSSEC/CAA",
+    "name": "dnsaudit",
+    "url": "https://github.com/cognis-digital/dnsaudit"
+  },
+  {
+    "description": "TLS cert lifecycle & rogue-issuance watch via Certificate Transparency",
+    "name": "certpatrol",
+    "url": "https://github.com/cognis-digital/certpatrol"
+  },
+  {
+    "description": "Audit UEFI firmware dumps for missing Secure Boot keys, unsigned modules, S3 boot-script vulns, and known SMM threats.",
+    "name": "uefiscan",
+    "url": "https://github.com/cognis-digital/uefiscan"
+  },
+  {
+    "description": "Generate a CycloneDX SBOM directly from an unpacked firmware root filesystem and flag components with known CVEs and EOL kernels.",
+    "name": "sbomb",
+    "url": "https://github.com/cognis-digital/sbomb"
+  },
+  {
+    "description": "Statically map task structures, stack usage, and ISR call graphs in FreeRTOS/Zephyr firmware to flag stack overflows and priority-inversion risks.",
+    "name": "rtosmap",
+    "url": "https://github.com/cognis-digital/rtosmap"
+  },
+  {
+    "description": "Validate OTA update packages end-to-end: signature chains, rollback protection, anti-downgrade counters, and delta-patch integrity.",
+    "name": "otaverify",
+    "url": "https://github.com/cognis-digital/otaverify"
+  },
+  {
+    "description": "Passively map an MQTT broker: enumerate topics, detect unauthenticated writes, spot PII/secrets in payloads, and emit a risk report.",
+    "name": "mqttspy",
+    "url": "https://github.com/cognis-digital/mqttspy"
+  },
+  {
+    "description": "Spin up a high-interaction Modbus/DNP3 ICS honeypot that logs attacker register reads/writes as structured JSON.",
+    "name": "modpot",
+    "url": "https://github.com/cognis-digital/modpot"
+  },
+  {
+    "description": "Scan firmware blobs and filesystem dumps for hardcoded private keys, API tokens, default creds, and weak RSA/ECC material.",
+    "name": "keyhunt",
+    "url": "https://github.com/cognis-digital/keyhunt"
+  },
+  {
+    "description": "Diff two firmware images and surface exactly what changed: new binaries, flipped config flags, added certs, and shifted entropy regions.",
+    "name": "fwxray",
+    "url": "https://github.com/cognis-digital/fwxray"
+  },
+  {
+    "description": "Replay, fuzz, and assert on CAN bus traffic from a .pcap or SocketCAN interface with a tiny YAML DSL.",
+    "name": "canzap",
+    "url": "https://github.com/cognis-digital/canzap"
+  },
+  {
+    "description": "Sniff and decode BLE GATT traffic, fingerprint device profiles, and assert on insecure pairing/characteristics in CI against a capture.",
+    "name": "blescope",
+    "url": "https://github.com/cognis-digital/blescope"
+  },
+  {
+    "description": "News bias & framing diff across 50+ outlets per event",
+    "name": "narrativediff",
+    "url": "https://github.com/cognis-digital/narrativediff"
+  },
+  {
+    "description": "Influence-operations pattern monitor for election periods",
+    "name": "electionlens",
+    "url": "https://github.com/cognis-digital/electionlens"
+  },
+  {
+    "description": "Lightweight synthetic-media detector with C2PA validation",
+    "name": "deepcheck",
+    "url": "https://github.com/cognis-digital/deepcheck"
+  },
+  {
+    "description": "Misinformation provenance tracer \u00e2\u20ac\u201d earliest-known appearance graph",
+    "name": "claimtrace",
+    "url": "https://github.com/cognis-digital/claimtrace"
+  },
+  {
+    "description": "Query, diff, and monitor ClinicalTrials.gov records, alerting on status, enrollment, or result changes.",
+    "name": "trialwatch",
+    "url": "https://github.com/cognis-digital/trialwatch"
+  },
+  {
+    "description": "Generate statistically realistic synthetic patient cohorts (FHIR/CSV) from a schema spec for dev and testing.",
+    "name": "synthcohort",
+    "url": "https://github.com/cognis-digital/synthcohort"
+  },
+  {
+    "description": "Stream-scan logs, CSVs, and free-text notes for PHI (names, MRNs, SSNs, dates, addresses) and redact or tokenize in place.",
+    "name": "phiscrub",
+    "url": "https://github.com/cognis-digital/phiscrub"
+  },
+  {
+    "description": "Parse, pretty-print, diff, and replay HL7 v2 messages over MLLP from the terminal.",
+    "name": "hl7tap",
+    "url": "https://github.com/cognis-digital/hl7tap"
+  },
+  {
+    "description": "Validate FHIR R4/R5 resources and bundles against profiles (US Core, etc.) with precise, line-level error reporting.",
+    "name": "fhirlint",
+    "url": "https://github.com/cognis-digital/fhirlint"
+  },
+  {
+    "description": "De-identify DICOM imaging studies per the DICOM PS3.15 Annex E profile, scrubbing tags and burned-in pixel text.",
+    "name": "dicomsweep",
+    "url": "https://github.com/cognis-digital/dicomsweep"
+  },
+  {
+    "description": "Re-identification risk assessment that computes k-anonymity, l-diversity, and HIPAA Safe Harbor compliance on a dataset.",
+    "name": "deidproof",
+    "url": "https://github.com/cognis-digital/deidproof"
+  },
+  {
+    "description": "Maintain a tamper-evident, hash-chained audit log of patient-data access and consent events.",
+    "name": "consentledger",
+    "url": "https://github.com/cognis-digital/consentledger"
+  },
+  {
+    "description": "Translate and validate medical codes across ICD-10, SNOMED CT, LOINC, RxNorm, and CPT from the CLI.",
+    "name": "codemap",
+    "url": "https://github.com/cognis-digital/codemap"
+  },
+  {
+    "description": "Scan a repo or infra manifest for HIPAA Security Rule gaps and produce a Business Associate readiness scorecard.",
+    "name": "baadiff",
+    "url": "https://github.com/cognis-digital/baadiff"
+  },
+  {
+    "description": "Verifies and replays signed payment webhooks (Stripe/Adyen/PayPal/Plaid) locally, catching signature, idempotency, and replay-attack bugs.",
+    "name": "webhookvty",
+    "url": "https://github.com/cognis-digital/webhookvty"
+  },
+  {
+    "description": "Builds a transaction graph from ledger/account data and surfaces structuring, layering, and mule-network patterns for AML triage.",
+    "name": "txgraph",
+    "url": "https://github.com/cognis-digital/txgraph"
+  },
+  {
+    "description": "Self-hostable PCI tokenization microservice and CLI that swaps PANs for format-preserving tokens and proves no raw card data persists.",
+    "name": "tokenvault",
+    "url": "https://github.com/cognis-digital/tokenvault"
+  },
+  {
+    "description": "Screens counterparties and transactions against OFAC/EU/UN sanctions lists with fuzzy name matching and explainable hit scoring.",
+    "name": "sanctscan",
+    "url": "https://github.com/cognis-digital/sanctscan"
+  },
+  {
+    "description": "Scans code, logs, fixtures, and S3 buckets for leaked PANs (Luhn-validated card numbers) and CVVs before they hit prod.",
+    "name": "panhound",
+    "url": "https://github.com/cognis-digital/panhound"
+  },
+  {
+    "description": "Conformance and security linter for Open Banking / FAPI APIs: validates OAuth flows, consent scopes, and PSD2 endpoints against the spec.",
+    "name": "obscan",
+    "url": "https://github.com/cognis-digital/obscan"
+  },
+  {
+    "description": "Verifies double-entry ledger integrity and tamper-evidence by checking balance invariants and hash-chained journal entries.",
+    "name": "ledgerproof",
+    "url": "https://github.com/cognis-digital/ledgerproof"
+  },
+  {
+    "description": "Validates, lints, and diffs ISO 20022 / pacs / camt payment messages and translates legacy MT into MX with schema-aware errors.",
+    "name": "iso20022",
+    "url": "https://github.com/cognis-digital/iso20022"
+  },
+  {
+    "description": "Replays a stream of transactions against pluggable fraud rules and ML scorers, emitting precision/recall and alert volume from the terminal.",
+    "name": "fraudlens",
+    "url": "https://github.com/cognis-digital/fraudlens"
+  },
+  {
+    "description": "Monitors dispute/chargeback feeds, flags fraud-rate threshold breaches (VAMP/Visa), and drafts representment evidence packets.",
+    "name": "chargeguard",
+    "url": "https://github.com/cognis-digital/chargeguard"
+  },
+  {
+    "description": "SBIR/STTR topic discovery \u00e2\u20ac\u201d DSIP + SBIR.gov + NIH digest with bid scoring",
+    "name": "sbirscout",
+    "url": "https://github.com/cognis-digital/sbirscout"
+  },
+  {
+    "description": "GSA Schedule opportunity surveyor \u00e2\u20ac\u201d SAM.gov + eBuy + FedConnect",
+    "name": "gsafinder",
+    "url": "https://github.com/cognis-digital/gsafinder"
+  },
+  {
+    "description": "FedRAMP boundary visualizer & OSCAL-format SSP/POAM generator",
+    "name": "fedramplens",
+    "url": "https://github.com/cognis-digital/fedramplens"
+  },
+  {
+    "description": "CMMC Level 2 practice mapper \u00e2\u20ac\u201d stack-aware SSP skeleton generator",
+    "name": "cmmcmap",
+    "url": "https://github.com/cognis-digital/cmmcmap"
+  },
+  {
+    "description": "Personnel clearance hygiene tracker \u00e2\u20ac\u201d SF-86, SEAD-3/4, training currency",
+    "name": "clearancepath",
+    "url": "https://github.com/cognis-digital/clearancepath"
+  },
+  {
+    "description": "NIST AI RMF / EU AI Act / ISO 42001 self-assessment & SSP generator",
+    "name": "checkpoint-ai",
+    "url": "https://github.com/cognis-digital/checkpoint-ai"
+  },
+  {
+    "description": "Token and cost counter / budgeter for LLM apps, CI-ready",
+    "name": "tokenmeter",
+    "url": "https://github.com/cognis-digital/tokenmeter"
+  },
+  {
+    "description": "Dockerfile linter with image-size and CVE advisories",
+    "name": "shipcheck",
+    "url": "https://github.com/cognis-digital/shipcheck"
+  },
+  {
+    "description": "Lint, version, and test prompts as code with a CI gate",
+    "name": "promptlint",
+    "url": "https://github.com/cognis-digital/promptlint"
+  },
+  {
+    "description": "Scaffold, test, and publish MCP servers in minutes",
+    "name": "mcpforge",
+    "url": "https://github.com/cognis-digital/mcpforge"
+  },
+  {
+    "description": "Dependency license + SBOM gate, developer-CLI first",
+    "name": "licenselens",
+    "url": "https://github.com/cognis-digital/licenselens"
+  },
+  {
+    "description": "Changelog and release notes from conventional commits",
+    "name": "gitstory",
+    "url": "https://github.com/cognis-digital/gitstory"
+  },
+  {
+    "description": "Flaky-test detector from CI history with quarantine suggestions",
+    "name": "flakefinder",
+    "url": "https://github.com/cognis-digital/flakefinder"
+  },
+  {
+    "description": ".env validator, secret-presence and config-drift checker",
+    "name": "envdoctor",
+    "url": "https://github.com/cognis-digital/envdoctor"
+  },
+  {
+    "description": "Repo onboarding map \u00e2\u20ac\u201d architecture + hotspots for humans and agents",
+    "name": "codeglance",
+    "url": "https://github.com/cognis-digital/codeglance"
+  },
+  {
+    "description": "Breaking-change detector for OpenAPI / GraphQL across commits",
+    "name": "apidiff",
+    "url": "https://github.com/cognis-digital/apidiff"
+  },
+  {
+    "description": "CI/CD supply-chain auditor \u00e2\u20ac\u201d GH Actions / GitLab CI / OWASP CI/CD Top 10",
+    "name": "pipewatch-pro",
+    "url": "https://github.com/cognis-digital/pipewatch-pro"
+  },
+  {
+    "description": "OSS license compliance auditor \u00e2\u20ac\u201d AGPL contamination + NOTICE generation",
+    "name": "ossaudit",
+    "url": "https://github.com/cognis-digital/ossaudit"
+  },
+  {
+    "description": "Dependency risk visualizer \u00e2\u20ac\u201d Scorecard + OSV + typosquat + maintainer signals",
+    "name": "depgraph",
+    "url": "https://github.com/cognis-digital/depgraph"
+  },
+  {
+    "description": "Counter-UAS telemetry/log analyzer that flags drone-detection events, RF bands, and track anomalies.",
+    "name": "uaslog",
+    "url": "https://github.com/cognis-digital/uaslog"
+  },
+  {
+    "description": "Generate STRIDE threat models and attack trees from a YAML system spec.",
+    "name": "threatmodeler",
+    "url": "https://github.com/cognis-digital/threatmodeler"
+  },
+  {
+    "description": "Parse and classify signal metadata (freq, modulation, bandwidth) into a normalized catalog.",
+    "name": "sigmeta",
+    "url": "https://github.com/cognis-digital/sigmeta"
+  },
+  {
+    "description": "Analyze RF spectrum-occupancy CSV/metadata for band usage, interference, and anomalies.",
+    "name": "rfsurvey",
+    "url": "https://github.com/cognis-digital/rfsurvey"
+  },
+  {
+    "description": "Compute unit readiness (C-ratings style) from a personnel/equipment/training YAML and flag gaps.",
+    "name": "readiness",
+    "url": "https://github.com/cognis-digital/readiness"
+  },
+  {
+    "description": "Scan documents and file metadata for OPSEC leaks: geotags, author, GPS EXIF, unit identifiers.",
+    "name": "opsecscan",
+    "url": "https://github.com/cognis-digital/opsecscan"
+  },
+  {
+    "description": "Generate and validate APP-6/MIL-STD-2525 symbol identification codes (SIDC).",
+    "name": "natosymbol",
+    "url": "https://github.com/cognis-digital/natosymbol"
+  },
+  {
+    "description": "Lint documents against MIL-STD / DoD formatting and classification-marking rules.",
+    "name": "milstdlint",
+    "url": "https://github.com/cognis-digital/milstdlint"
+  },
+  {
+    "description": "Flags potential ITAR/EAR export-controlled terms and USML categories in code, datasheets, and docs.",
+    "name": "itarcheck",
+    "url": "https://github.com/cognis-digital/itarcheck"
+  },
+  {
+    "description": "Area-of-interest geospatial helper: bounding boxes, geofence checks, and change-event diffs from coordinate logs.",
+    "name": "geoaoi",
+    "url": "https://github.com/cognis-digital/geoaoi"
+  },
+  {
+    "description": "Correlate electronic-warfare event logs by time/frequency/bearing to cluster emitters.",
+    "name": "ewcorr",
+    "url": "https://github.com/cognis-digital/ewcorr"
+  },
+  {
+    "description": "Defense logistics route/sustainment planner computing fuel, resupply windows, and chokepoint risk from a YAML plan.",
+    "name": "convoyplan",
+    "url": "https://github.com/cognis-digital/convoyplan"
+  },
+  {
+    "description": "Validate classification banner markings (CUI/CONFIDENTIAL/SECRET) in documents per portion-marking rules.",
+    "name": "classguard",
+    "url": "https://github.com/cognis-digital/classguard"
+  },
+  {
+    "description": "Build and query a structured catalog of installations/AOIs with distance, sector, and coverage queries.",
+    "name": "basemap",
+    "url": "https://github.com/cognis-digital/basemap"
+  },
+  {
+    "description": "Analyze an ADS-B feed/CSV for anomalies: callsign spoofing, squawk 7500/7600/7700, and unusual loiter patterns.",
+    "name": "adsbwatch",
+    "url": "https://github.com/cognis-digital/adsbwatch"
+  },
+  {
+    "description": "Synthetic test-data generator with referential integrity",
+    "name": "seedforge",
+    "url": "https://github.com/cognis-digital/seedforge"
+  },
+  {
+    "description": "Schema-change detector and data-contract tests",
+    "name": "schemadrift",
+    "url": "https://github.com/cognis-digital/schemadrift"
+  },
+  {
+    "description": "PII discovery across warehouses and lakes (data-side scanner)",
+    "name": "piiscan",
+    "url": "https://github.com/cognis-digital/piiscan"
+  },
+  {
+    "description": "Column-level lineage extracted from SQL and dbt",
+    "name": "lineagemap",
+    "url": "https://github.com/cognis-digital/lineagemap"
+  },
+  {
+    "description": "Embedding / vector-store drift and poisoning audit",
+    "name": "embedaudit",
+    "url": "https://github.com/cognis-digital/embedaudit"
+  },
+  {
+    "description": "Zero-setup data-quality checks on any file or warehouse via DuckDB",
+    "name": "duckprobe",
+    "url": "https://github.com/cognis-digital/duckprobe"
+  },
+  {
+    "description": "Auto Dataset Cards / datasheets with Croissant + provenance",
+    "name": "datasetcard",
+    "url": "https://github.com/cognis-digital/datasetcard"
+  },
+  {
+    "description": "Fast CLI for profiling and cleaning huge CSV / Parquet files",
+    "name": "csvlens",
+    "url": "https://github.com/cognis-digital/csvlens"
+  },
+  {
+    "description": "Third-party / vendor risk questionnaires with SBOM cross-ref",
+    "name": "vendorvet",
+    "url": "https://github.com/cognis-digital/vendorvet"
+  },
+  {
+    "description": "SOC 2 evidence collector and control tracker, self-hosted",
+    "name": "soc2box",
+    "url": "https://github.com/cognis-digital/soc2box"
+  },
+  {
+    "description": "Auto-generate security policies from a short questionnaire",
+    "name": "policyforge",
+    "url": "https://github.com/cognis-digital/policyforge"
+  },
+  {
+    "description": "GDPR/CCPA DSAR, RoPA, and cookie-consent toolkit",
+    "name": "gdprkit",
+    "url": "https://github.com/cognis-digital/gdprkit"
+  },
+  {
+    "description": "Crosswalk controls across NIST, ISO 27001, SOC 2, CMMC, PCI",
+    "name": "frameworkmap",
+    "url": "https://github.com/cognis-digital/frameworkmap"
+  },
+  {
+    "description": "DPIA and EU AI Act impact-assessment generator",
+    "name": "dpiaforge",
+    "url": "https://github.com/cognis-digital/dpiaforge"
+  },
+  {
+    "description": "Tamper-evident audit-log aggregator with hash-chained attestation",
+    "name": "auditrail",
+    "url": "https://github.com/cognis-digital/auditrail"
+  },
+  {
+    "description": "Periodic user-access-review (UAR) campaign runner",
+    "name": "accessreview",
+    "url": "https://github.com/cognis-digital/accessreview"
+  },
+  {
+    "description": "SaaS license, seat-usage and shadow-IT auditor",
+    "name": "seataudit",
+    "url": "https://github.com/cognis-digital/seataudit"
+  },
+  {
+    "description": "Incident runbook and SOP generator from templates",
+    "name": "runbookgen",
+    "url": "https://github.com/cognis-digital/runbookgen"
+  },
+  {
+    "description": "Proposal / quote / SOW generator \u00e2\u20ac\u201d YAML to branded PDF",
+    "name": "quotecraft",
+    "url": "https://github.com/cognis-digital/quotecraft"
+  },
+  {
+    "description": "Recurring-charge and subscription detector from bank/Plaid CSV",
+    "name": "paywatch",
+    "url": "https://github.com/cognis-digital/paywatch"
+  },
+  {
+    "description": "Org charts and headcount plans generated from CSV / HRIS export",
+    "name": "orgchart",
+    "url": "https://github.com/cognis-digital/orgchart"
+  },
+  {
+    "description": "Compute the dollar cost of meetings from your calendar (.ics)",
+    "name": "meetingcost",
+    "url": "https://github.com/cognis-digital/meetingcost"
+  },
+  {
+    "description": "Lightweight MCP-native CRM pipeline with email sequences",
+    "name": "leadforge",
+    "url": "https://github.com/cognis-digital/leadforge"
+  },
+  {
+    "description": "CLI invoicing + payment-link generator with PDF and a local ledger",
+    "name": "invoctl",
+    "url": "https://github.com/cognis-digital/invoctl"
+  },
+  {
+    "description": "Self-hosted SaaS metrics \u00e2\u20ac\u201d MRR, churn, LTV from Stripe or CSV",
+    "name": "churnlens",
+    "url": "https://github.com/cognis-digital/churnlens"
+  },
+  {
+    "description": "Investor-update and KPI one-pager generator from your metrics",
+    "name": "boardroom",
+    "url": "https://github.com/cognis-digital/boardroom"
+  },
+  {
+    "description": "Single-file SIEM for small teams \u00e2\u20ac\u201d Sigma rules + multi-source ingest",
+    "name": "sentrylog",
+    "url": "https://github.com/cognis-digital/sentrylog"
+  },
+  {
+    "description": "Continuous SBOM diff & vulnerability watch with maintainer-change tracking",
+    "name": "sbomgate",
+    "url": "https://github.com/cognis-digital/sbomgate"
+  },
+  {
+    "description": "Open-source phishing simulation \u00e2\u20ac\u201d campaigns, templates, training",
+    "name": "phishforge",
+    "url": "https://github.com/cognis-digital/phishforge"
+  },
+  {
+    "description": "Active-decoy network lure system \u00e2\u20ac\u201d SSH, RDP, SMB, web honeypots",
+    "name": "honeytrace",
+    "url": "https://github.com/cognis-digital/honeytrace"
+  },
+  {
+    "description": "Score and rank inbound/outbound leads from a YAML rulebook, emitting a ranked queue as JSON/CSV for your SDRs and CI gates.",
+    "name": "warmline",
+    "url": "https://github.com/cognis-digital/warmline"
+  },
+  {
+    "description": "Build and maintain an investor-update + data-room manifest from a metrics YAML, rendering monthly MRR/burn/runway updates with consistent KPIs.",
+    "name": "raisedeck",
+    "url": "https://github.com/cognis-digital/raisedeck"
+  },
+  {
+    "description": "Track partnership/channel agreements as YAML records and compute account overlap, co-sell coverage gaps, and renewal/expiry alerts.",
+    "name": "partnermap",
+    "url": "https://github.com/cognis-digital/partnermap"
+  },
+  {
+    "description": "Generate branded sales proposals and SOWs from a YAML scope file + pricing table into PDF/HTML, with a deterministic line-item math check.",
+    "name": "pactgen",
+    "url": "https://github.com/cognis-digital/pactgen"
+  },
+  {
+    "description": "Find warm-intro paths through your team's combined network graph and draft double-opt-in intro requests from a single contacts manifest.",
+    "name": "introbot",
+    "url": "https://github.com/cognis-digital/introbot"
+  },
+  {
+    "description": "Enrich a leads CSV with firmographics, tech stack, and contact validation from pluggable providers, caching results to avoid duplicate API spend.",
+    "name": "enrichr",
+    "url": "https://github.com/cognis-digital/enrichr"
+  },
+  {
+    "description": "Lint email sequences and drip campaigns for deliverability: SPF/DKIM/DMARC, link health, unsubscribe presence, and CAN-SPAM/GDPR compliance.",
+    "name": "dripcheck",
+    "url": "https://github.com/cognis-digital/dripcheck"
+  },
+  {
+    "description": "Model your sales pipeline as a YAML state machine and compute conversion rates, stage velocity, and weighted forecast straight from CRM exports.",
+    "name": "dealflow",
+    "url": "https://github.com/cognis-digital/dealflow"
+  },
+  {
+    "description": "Bidirectional, idempotent sync of contacts/deals between a local SQLite source-of-truth and CRM APIs (HubSpot/Pipedrive/Salesforce) via one config.",
+    "name": "crmsync",
+    "url": "https://github.com/cognis-digital/crmsync"
+  },
+  {
+    "description": "Render personalized cold-outreach sequences from Markdown templates + a contacts CSV, with spam-score linting and per-send dry-run preview.",
+    "name": "coldforge",
+    "url": "https://github.com/cognis-digital/coldforge"
+  },
+  {
+    "description": "Lightweight semantic-aware SAST that runs curated taint rules over diffs only, so PRs get fast incremental SAST instead of whole-repo scan fatigue.",
+    "name": "semsift",
+    "url": "https://github.com/cognis-digital/semsift"
+  },
+  {
+    "description": "Generates a CycloneDX SBOM for mobile apps by unpacking native libs and bundled SDKs, then matches components against known-vuln and tracker/privacy databases.",
+    "name": "sbomx",
+    "url": "https://github.com/cognis-digital/sbomx"
+  },
+  {
+    "description": "Validates that a mobile app's TLS pinning, certificate transparency, and network-security-config are actually enforced by replaying a MITM handshake against the built artifact.",
+    "name": "pincheck",
+    "url": "https://github.com/cognis-digital/pincheck"
+  },
+  {
+    "description": "Static scanner for iOS .ipa bundles that flags ATS exceptions, missing entitlements hardening, embedded URLs/secrets, and weak Info.plist transport settings.",
+    "name": "ipasnitch",
+    "url": "https://github.com/cognis-digital/ipasnitch"
+  },
+  {
+    "description": "Generates ready-to-run Frida instrumentation scripts from a YAML intent (e.g. 'bypass SSL pinning', 'dump crypto keys') and verifies they attach to a target process.",
+    "name": "hookcraft",
+    "url": "https://github.com/cognis-digital/hookcraft"
+  },
+  {
+    "description": "Fuzzes Android/iOS deep links, intents, and custom URL schemes against an emulator/device to surface unvalidated-redirect, injection, and component-hijack bugs.",
+    "name": "deeplinkfuzz",
+    "url": "https://github.com/cognis-digital/deeplinkfuzz"
+  },
+  {
+    "description": "A headless, config-as-code DAST runner that crawls an authenticated web/mobile-API surface and fires a curated active-scan ruleset, emitting deduplicated SARIF.",
+    "name": "dastlite",
+    "url": "https://github.com/cognis-digital/dastlite"
+  },
+  {
+    "description": "Anti-cheat telemetry analyzer that ingests game session logs and flags statistically anomalous input/aim/movement signatures with explainable per-flag scoring.",
+    "name": "cheatsense",
+    "url": "https://github.com/cognis-digital/cheatsense"
+  },
+  {
+    "description": "Game/desktop binary integrity scanner that fingerprints executables, detects common packers/obfuscators, and diffs against a known-good baseline to catch tampering.",
+    "name": "binhunt",
+    "url": "https://github.com/cognis-digital/binhunt"
+  },
+  {
+    "description": "Prompt-injection & indirect-injection scanner for any LLM context input",
+    "name": "promptmirror",
+    "url": "https://github.com/cognis-digital/promptmirror"
+  },
+  {
+    "description": "Local LLM cost & token forensics proxy with anomaly detection",
+    "name": "ledgermind",
+    "url": "https://github.com/cognis-digital/ledgermind"
+  },
+  {
+    "description": "LLM hallucination & grounding auditor for RAG systems",
+    "name": "hallumark",
+    "url": "https://github.com/cognis-digital/hallumark"
+  },
+  {
+    "description": "Runtime agent firewall \u00e2\u20ac\u201d PII redaction, rate limits, policy enforcement",
+    "name": "guardpost",
+    "url": "https://github.com/cognis-digital/guardpost"
+  },
+  {
+    "description": "Auto-generated NIST AI RMF / EU AI Act Annex IV model & system cards",
+    "name": "aicard",
+    "url": "https://github.com/cognis-digital/aicard"
+  },
+  {
+    "description": "AI Agent Permission & Access Auditor \u00e2\u20ac\u201d surfaces the lethal trifecta of credentials + injection + reach",
+    "name": "aegis",
+    "url": "https://github.com/cognis-digital/aegis"
+  },
+  {
+    "description": "LLM red-team harness \u00e2\u20ac\u201d OWASP LLM Top 10 + MITRE ATLAS attack packs",
+    "name": "adversa",
+    "url": "https://github.com/cognis-digital/adversa"
+  },
+  {
+    "description": "Runtime allowlist and policy for agent tool-calls",
+    "name": "toolguard",
+    "url": "https://github.com/cognis-digital/toolguard"
+  },
+  {
+    "description": "Local skill registry and installer for AI agents",
+    "name": "skillhub",
+    "url": "https://github.com/cognis-digital/skillhub"
+  },
+  {
+    "description": "Batteries-included local RAG pipeline \u00e2\u20ac\u201d ingest, index, serve",
+    "name": "ragkit",
+    "url": "https://github.com/cognis-digital/ragkit"
+  },
+  {
+    "description": "Versioned prompt / template registry with A/B and rollbacks",
+    "name": "promptpack",
+    "url": "https://github.com/cognis-digital/promptpack"
+  },
+  {
+    "description": "Local model router / proxy across Ollama, vLLM, and cloud with fallback",
+    "name": "modelroute",
+    "url": "https://github.com/cognis-digital/modelroute"
+  },
+  {
+    "description": "Portable long-term memory store for agents, exposed over MCP",
+    "name": "memorybank",
+    "url": "https://github.com/cognis-digital/memorybank"
+  },
+  {
+    "description": "Offline LLM / agent eval harness with regression gates",
+    "name": "evalbench",
+    "url": "https://github.com/cognis-digital/evalbench"
+  },
+  {
+    "description": "Config-first scaffolding and orchestration for multi-agent workflows",
+    "name": "agentsmith",
+    "url": "https://github.com/cognis-digital/agentsmith"
+  },
+  {
+    "description": "Umbrella catalog of the Cognis Neural Suite (100+ tools)",
+    "name": "cognis-neural-suite",
+    "url": "https://github.com/cognis-digital/cognis-neural-suite"
+  },
+  {
+    "description": "Config files for my GitHub profile.",
+    "name": "cognis-digital",
+    "url": "https://github.com/cognis-digital/cognis-digital"
+  },
+  {
+    "description": "Awesome Cognis \u00e2\u20ac\u201d curated list of the Cognis Neural Suite + upstream OSS",
+    "name": "awesome-cognis",
+    "url": "https://github.com/cognis-digital/awesome-cognis"
+  },
+  {
+    "description": "Model-agnostic, portable long-term memory framework for AI agents (MCP-native)",
+    "name": "hermes",
+    "url": "https://github.com/cognis-digital/hermes"
+  },
+  {
+    "description": "Run simple YARA-style string/regex rules over a directory",
+    "name": "yararun",
+    "url": "https://github.com/cognis-digital/yararun"
+  },
+  {
+    "description": "Extract & defang IOCs (IPs/domains/hashes/URLs) from any text",
+    "name": "iocextract",
+    "url": "https://github.com/cognis-digital/iocextract"
+  },
+  {
+    "description": "Static + symbolic detector that flags reentrancy, cross-function, and read-only reentrancy paths in Solidity/Vyper with CI-gating SARIF output.",
+    "name": "reentryx",
+    "url": "https://github.com/cognis-digital/reentryx"
+  },
+  {
+    "description": "Lint and unit-test Sigma detection rules against sample events",
+    "name": "sigmacheck",
+    "url": "https://github.com/cognis-digital/sigmacheck"
+  },
+  {
+    "description": "Diffs and decodes contract storage layouts across proxy upgrades to catch storage-collision and uninitialized-slot bugs.",
+    "name": "storagelens",
+    "url": "https://github.com/cognis-digital/storagelens"
+  },
+  {
+    "description": "Decodes raw calldata and EIP-712 typed-data into human-readable intent, flagging blind-signing and malicious permit/Permit2 payloads.",
+    "name": "sigsleuth",
+    "url": "https://github.com/cognis-digital/sigsleuth"
+  },
+  {
+    "description": "Token contract risk scanner detecting honeypots, hidden mint/blacklist functions, owner backdoors, and unlocked liquidity before you ape.",
+    "name": "rugradar",
+    "url": "https://github.com/cognis-digital/rugradar"
+  },
+  {
+    "description": "Monitors price-oracle feeds for staleness, deviation, and manipulation exposure, simulating TWAP/spot attack profitability per pool.",
+    "name": "oraclewatch",
+    "url": "https://github.com/cognis-digital/oraclewatch"
+  },
+  {
+    "description": "Replays a tx or address history to attribute sandwich, frontrun, and backrun MEV extraction with per-trade loss accounting.",
+    "name": "mevscope",
+    "url": "https://github.com/cognis-digital/mevscope"
+  },
+  {
+    "description": "Per-opcode and per-function gas profiler that flags unbounded loops, DoS-prone patterns, and regressions against a committed baseline.",
+    "name": "gasprofiler",
+    "url": "https://github.com/cognis-digital/gasprofiler"
+  },
+  {
+    "description": "Mainnet-fork invariant fuzzer that replays your contract against live state and stateful sequences to break protocol invariants before deploy.",
+    "name": "forkfuzz",
+    "url": "https://github.com/cognis-digital/forkfuzz"
+  },
+  {
+    "description": "Verifies that deployed on-chain bytecode matches a given source/Foundry build, detecting unverified or tampered proxies and implementations.",
+    "name": "bytematch",
+    "url": "https://github.com/cognis-digital/bytematch"
+  },
+  {
+    "description": "Scans any wallet for dangerous ERC-20/721/1155 token approvals and infinite allowances, scoring drainer exposure and emitting revoke transactions.",
+    "name": "approvewarden",
+    "url": "https://github.com/cognis-digital/approvewarden"
+  },
+  {
+    "description": "Fingerprint web tech/CMS/frameworks from headers + body",
+    "name": "webrecon",
+    "url": "https://github.com/cognis-digital/webrecon"
+  },
+  {
+    "description": "Plan + track secret rotation across providers from an inventory",
+    "name": "tokenrotate",
+    "url": "https://github.com/cognis-digital/tokenrotate"
+  },
+  {
+    "description": "Aggregate & dedupe subdomain enumeration from multiple sources",
+    "name": "subhunt",
+    "url": "https://github.com/cognis-digital/subhunt"
+  },
+  {
+    "description": "Find SSRF-prone sinks and unvalidated URL fetches in code",
+    "name": "ssrfind",
+    "url": "https://github.com/cognis-digital/ssrfind"
+  },
+  {
+    "description": "Grade TLS config (protocols/ciphers/expiry) from openssl/sslyze output",
+    "name": "ssltriage",
+    "url": "https://github.com/cognis-digital/ssltriage"
+  },
+  {
+    "description": "Flag risky cloud-bucket ACLs/policies from a listing or policy JSON",
+    "name": "s3sniff",
+    "url": "https://github.com/cognis-digital/s3sniff"
+  },
+  {
+    "description": "One-shot repo security posture grade (secrets/CI/branch rules/deps)",
+    "name": "reposecure",
+    "url": "https://github.com/cognis-digital/reposecure"
+  },
+  {
+    "description": "Probe API rate-limit/abuse resistance from a request spec",
+    "name": "ratecheck",
+    "url": "https://github.com/cognis-digital/ratecheck"
+  },
+  {
+    "description": "Summarize and diff nmap XML into prioritized, attackable findings",
+    "name": "portfan",
+    "url": "https://github.com/cognis-digital/portfan"
+  },
+  {
+    "description": "Score URLs/emails for phishing signals (lookalike, auth, intent)",
+    "name": "phishcheck",
+    "url": "https://github.com/cognis-digital/phishcheck"
+  },
+  {
+    "description": "Summarize flows/talkers/protocols from a pcap text export",
+    "name": "pcapsummary",
+    "url": "https://github.com/cognis-digital/pcapsummary"
+  },
+  {
+    "description": "Diff two scans to surface new hosts/ports/services",
+    "name": "nmapdiff",
+    "url": "https://github.com/cognis-digital/nmapdiff"
+  },
+  {
+    "description": "Strip identifying metadata from docs/images before release",
+    "name": "metascrub",
+    "url": "https://github.com/cognis-digital/metascrub"
+  },
+  {
+    "description": "Detect brute-force, spray, and anomalous auth events in logs",
+    "name": "logsift",
+    "url": "https://github.com/cognis-digital/logsift"
+  },
+  {
+    "description": "Decode JWTs and lint for alg=none, weak secrets, and missing claims",
+    "name": "jwtinspect",
+    "url": "https://github.com/cognis-digital/jwtinspect"
+  },
+  {
+    "description": "Local PII discovery in your own files \u00e2\u20ac\u201d SSN/CC/passport/DL/email/phone/DOB",
+    "name": "piicomb",
+    "url": "https://github.com/cognis-digital/piicomb"
+  },
+  {
+    "description": "Post-quantum migration readiness scanner \u00e2\u20ac\u201d find quantum-vulnerable crypto and map to NIST PQC (FIPS 203/204/205)",
+    "name": "quantumready",
+    "url": "https://github.com/cognis-digital/quantumready"
+  },
+  {
+    "description": "One-command static triage of Android APK/AAB binaries: surfaces hardcoded secrets, exported components, dangerous permissions, and insecure manifest flags as a single SARIF report.",
+    "name": "apkpeek",
+    "url": "https://github.com/cognis-digital/apkpeek"
+  },
+  {
+    "description": "DISA STIG checker + NIST 800-53 RMF mapper + POAM emitter",
+    "name": "stigsentry",
+    "url": "https://github.com/cognis-digital/stigsentry"
+  },
+  {
+    "description": "RF spectrum survey, NTIA/FCC-aware band-plan validator",
+    "name": "sigsurvey-rf",
+    "url": "https://github.com/cognis-digital/sigsurvey-rf"
+  },
+  {
+    "description": "Auto-generate SSP / POAM / SAR (eMASS / Xacta import format)",
+    "name": "rmf-package",
+    "url": "https://github.com/cognis-digital/rmf-package"
+  },
+  {
+    "description": "Authorized red-team engagement governance: scope enforcement, TPI, audit-log overlay",
+    "name": "redforge-c2",
+    "url": "https://github.com/cognis-digital/redforge-c2"
+  },
+  {
+    "description": "Unit-readiness C-rating dashboard (C1-C4) \u00e2\u20ac\u201d personnel, equipment, training",
+    "name": "readiness-rms",
+    "url": "https://github.com/cognis-digital/readiness-rms"
+  },
+  {
+    "description": "Honeypot event enrichment + STIX/TAXII + CISA IOC export",
+    "name": "honeypot-mil",
+    "url": "https://github.com/cognis-digital/honeypot-mil"
+  },
+  {
+    "description": "Military convoy routing w/ escort, dwell, threat-cost overlays",
+    "name": "convoy-or",
+    "url": "https://github.com/cognis-digital/convoy-or"
+  },
+  {
+    "description": "DISA STIG-aligned osquery configs + RMF mapper",
+    "name": "comint-osquery",
+    "url": "https://github.com/cognis-digital/comint-osquery"
+  },
+  {
+    "description": "CAPCO-shape classification banner + portion marking library \u00e2\u20ac\u201d placeholders only",
+    "name": "classmark",
+    "url": "https://github.com/cognis-digital/classmark"
+  },
+  {
+    "description": "Self-contained installer for airgapped (SIPR/JWICS-style) environments",
+    "name": "airgap-pkg",
+    "url": "https://github.com/cognis-digital/airgap-pkg"
+  },
+  {
+    "description": "Windows power-user starter kit \u00e2\u20ac\u201d curated tools, 80+ shortcuts, one-command winget setup",
+    "name": "windows-toolkit",
+    "url": "https://github.com/cognis-digital/windows-toolkit"
+  },
+  {
+    "description": "Deploy a local multi-model LLM fleet (llama.cpp) with an agent harness, hermes memory, and a one-command CLI",
+    "name": "uncensored-fleet",
+    "url": "https://github.com/cognis-digital/uncensored-fleet"
+  },
+  {
+    "description": "Starter templates: Python CLI, MCP server, Dockerfile, CI, devcontainer, and more",
+    "name": "templates",
+    "url": "https://github.com/cognis-digital/templates"
+  },
+  {
+    "description": "Agent skill registry \u00e2\u20ac\u201d portable skills for AI agents (MCP/Claude/ClawHub style)",
+    "name": "skills",
+    "url": "https://github.com/cognis-digital/skills"
+  },
+  {
+    "description": "Curated, idempotent Ubuntu/Debian setup scripts for popular dev & infra tools",
+    "name": "setup-scripts",
+    "url": "https://github.com/cognis-digital/setup-scripts"
+  },
+  {
+    "description": "An AI roasts (and then constructively fixes) your repo \u00e2\u20ac\u201d local, free, savage",
+    "name": "repo-roast",
+    "url": "https://github.com/cognis-digital/repo-roast"
+  },
+  {
+    "description": "AdGuard/uBlock blocklists + UA/geo/cookie/session spoofing with a browser compatibility matrix",
+    "name": "privacyspoof",
+    "url": "https://github.com/cognis-digital/privacyspoof"
+  },
+  {
+    "description": "One menu to install every language, cloud CLI, container, and AI tool \u00e2\u20ac\u201d Linux/macOS/Windows",
+    "name": "omni-install",
+    "url": "https://github.com/cognis-digital/omni-install"
+  },
+  {
+    "description": "Turn any command-line tool into an MCP server \u00e2\u20ac\u201d one line, zero boilerplate",
+    "name": "mcpify",
+    "url": "https://github.com/cognis-digital/mcpify"
+  },
+  {
+    "description": "Infer where a photo was taken using a local uncensored vision + reasoning model (OSINT/geoint, 100% local)",
+    "name": "locateanything",
+    "url": "https://github.com/cognis-digital/locateanything"
+  },
+  {
+    "description": "Condensed, cross-walked reference for SOC2, ISO 27001, NIST CSF/800-53/800-171, CMMC, GDPR, CCPA, HIPAA, PCI DSS, EU AI Act",
+    "name": "compliance-atlas",
+    "url": "https://github.com/cognis-digital/compliance-atlas"
+  },
+  {
+    "description": "Curated index of 10k+ public technical & research links (privacy-filtered)",
+    "name": "cognis-sources",
+    "url": "https://github.com/cognis-digital/cognis-sources"
+  },
+  {
+    "description": "How an agentic company runs \u00e2\u20ac\u201d Cognis Digital's 4-layer operating model, org chart, agent registry, and governance",
+    "name": "cognis-operations",
+    "url": "https://github.com/cognis-digital/cognis-operations"
+  },
+  {
+    "description": "Custom dev OS image (Packer/KVM/Vagrant/cloud-init) with every language + cloud + AI tool preinstalled",
+    "name": "cognis-devbox",
+    "url": "https://github.com/cognis-digital/cognis-devbox"
+  },
+  {
+    "description": "Local uncensored AI coding suite \u00e2\u20ac\u201d one endpoint wired into VS Code, JetBrains, Cursor, Zed, Neovim, opencode, and Aider",
+    "name": "cognis-code",
+    "url": "https://github.com/cognis-digital/cognis-code"
+  },
+  {
+    "description": "Firebase, GCP, and Azure project setups \u00e2\u20ac\u201d bootstrap, deploy, IaC, and emulators, merged and rebranded",
+    "name": "cloud-setups",
+    "url": "https://github.com/cognis-digital/cloud-setups"
+  },
+  {
+    "description": "Verifiable AI-agent identity + multi-hop delegation chains anchored to a human principal (the unsolved 2026 agent-auth gap)",
+    "name": "agentpassport",
+    "url": "https://github.com/cognis-digital/agentpassport"
+  },
+  {
+    "description": "SCIF/SAPF compliance helpers: badge audit, TPI, escort tracker",
+    "name": "scifops",
+    "url": "https://github.com/cognis-digital/scifops"
+  },
+  {
+    "description": "MIL-STD-2525 / APP-6 symbology + AOI helpers (QGIS-compatible)",
+    "name": "geoaoi-pro",
+    "url": "https://github.com/cognis-digital/geoaoi-pro"
+  },
+  {
+    "description": "FPV Strike Drone \u00e2\u20ac\u201d first-person drone flight & strike sim.",
+    "name": "fpv-strike-drone",
+    "url": "https://github.com/cognis-digital/fpv-strike-drone"
+  },
+  {
+    "description": "F-22 Raptor Combat Simulator \u00e2\u20ac\u201d Operation Eastern Shield.",
+    "name": "f22-raptor-sim",
+    "url": "https://github.com/cognis-digital/f22-raptor-sim"
+  },
+  {
+    "description": "Operation Blackout \u00e2\u20ac\u201d a fast browser FPS.",
+    "name": "operation-blackout",
+    "url": "https://github.com/cognis-digital/operation-blackout"
+  },
+  {
+    "description": "Mine archived URLs/params/endpoints from a Wayback/CDX export",
+    "name": "waybackrecon",
+    "url": "https://github.com/cognis-digital/waybackrecon"
+  },
+  {
+    "description": "Test, explain & benchmark regexes + a library of security patterns",
+    "name": "regexlab",
+    "url": "https://github.com/cognis-digital/regexlab"
+  },
+  {
+    "description": "Map a GitHub user/org footprint & leaked-secret surface from API exports",
+    "name": "githubrecon",
+    "url": "https://github.com/cognis-digital/githubrecon"
+  },
+  {
+    "description": "Find leaked cloud keys (AWS/GCP/Azure) + classify blast radius",
+    "name": "cloudkeys",
+    "url": "https://github.com/cognis-digital/cloudkeys"
+  },
+  {
+    "description": "Repo secret scanner + auto-rotator across providers",
+    "name": "secretsweep",
+    "url": "https://github.com/cognis-digital/secretsweep"
+  },
+  {
+    "description": "",
+    "name": "cognis-workforce-tool",
+    "url": "https://github.com/cognis-digital/cognis-workforce-tool"
+  },
+  {
+    "description": "",
+    "name": "service-tool",
+    "url": "https://github.com/cognis-digital/service-tool"
+  },
+  {
+    "description": "",
+    "name": "TGC",
+    "url": "https://github.com/cognis-digital/TGC"
+  },
+  {
+    "description": "",
+    "name": "value-widget",
+    "url": "https://github.com/cognis-digital/value-widget"
+  },
+  {
+    "description": "",
+    "name": "golfgenie-ai",
+    "url": "https://github.com/cognis-digital/golfgenie-ai"
+  },
+  {
+    "description": "",
+    "name": "assessment-tool",
+    "url": "https://github.com/cognis-digital/assessment-tool"
+  }
+]

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cognis-arsenal"
+version = "1.0.0"
+description = "The Cognis Neural Suite arsenal — every tool, one kit, multi-language installers"
+authors = [{name = "Cognis Digital", email = "suite@cognis.digital"}]
+license = {text = "LicenseRef-COCL-1.0"}
+requires-python = ">=3.10"
+readme = "README.md"
+keywords = ["toolkit", "installer", "security", "ai", "awesome-list", "self-hosted", "cognis-neural-suite", "cognis-digital"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://cognis.digital"
+Repository = "https://github.com/cognis-digital/cognis-arsenal"
+Suite = "https://github.com/cognis-digital"
+
+[project.scripts]
+cognis-arsenal = "install:main"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["install.py", "MANIFEST.json"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"install.py" = "install.py"
+"MANIFEST.json" = "MANIFEST.json"
