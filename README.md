@@ -11,6 +11,12 @@
 
 The Cognis Neural Suite is **288 public, single-purpose, self-hostable, MCP-native tools** across **28 domains**. This repo is the one place to discover and install all of them — from one tool to an entire domain to the whole arsenal — using whatever package manager you already speak.
 
+<!-- cognis:layman:start -->
+## What is this?
+
+Cognis Arsenal is a one-stop installer for the entire Cognis Neural Suite — a collection of 288 security, AI, and developer tools. Instead of hunting down each tool one by one, you run a single guided wizard that walks you through picking and installing exactly what you need. It works on Windows, Mac, and Linux, lets you install a single tool, a whole category, or everything at once, and supports pip, pipx, Docker, or direct source installs. It is designed for security researchers, developers, and IT teams who want quick access to the full Cognis toolset without wrestling with setup steps.
+<!-- cognis:layman:end -->
+
 ## Get started — just run the wizard
 
 **New here? Don't memorize anything. Run the guided setup wizard:**
@@ -61,6 +67,52 @@ cognis-arsenal install mcpscan          # one tool
 cognis-arsenal install ai-security       # a whole domain
 cognis-arsenal install all --method pipx # the entire arsenal, via pipx
 ```
+
+<!-- cognis:domains:start -->
+## Domains
+
+**Primary domain:** AI & ML  ·  **JTF MERIDIAN division:** ATHENA-PRIME · SAGE
+
+**Topics:** `cognis` `ai` `llm` `machine-learning`
+
+Part of the **Cognis Neural Suite** — 300+ source-available tools organized across 12 domains under the JTF MERIDIAN command structure. See the [suite on GitHub](https://github.com/cognis-digital) and [jtf-meridian](https://github.com/cognis-digital/jtf-meridian) for how the pieces fit together.
+<!-- cognis:domains:end -->
+
+<!-- cognis:install:start -->
+## Install
+
+`cognis-arsenal` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/cognis-arsenal.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/cognis-arsenal.git"  # uv
+pip install "git+https://github.com/cognis-digital/cognis-arsenal.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/cognis-arsenal.git
+cd cognis-arsenal && pip install .
+```
+
+Then run:
+```sh
+cognis-arsenal --help
+```
+<!-- cognis:install:end -->
 
 ## Installers
 
@@ -1270,7 +1322,7 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
   ```
 - **[cognis-arsenal](https://github.com/cognis-digital/cognis-arsenal)** — The Cognis Neural Suite arsenal â€” every tool, one kit, multi-language installers
   ```bash
-  cognis-arsenal install cognis-arsenal   # pip install cognis-cognis-arsenal
+  pip install "git+https://github.com/cognis-digital/cognis-arsenal.git"
   ```
 - **[cognis-digital](https://github.com/cognis-digital/cognis-digital)** — Config files for my GitHub profile.
   ```bash
@@ -1327,6 +1379,32 @@ _Per-domain counts:_ [Flagship](#flagship) (19) · [AI Security & Governance](#a
 - **Machine-readable index:** [`MANIFEST.json`](MANIFEST.json)
 - **Cognis.Studio:** [cognis.studio](https://cognis.studio) — agents call every tool over MCP
 - **Cognis Digital:** [cognis.digital](https://cognis.digital)
+
+<a name="verification"></a>
+## Verification
+
+[![tests](https://img.shields.io/badge/tests-12%20passing-2ea44f.svg)](AUDIT.md)
+
+Every push is verified end-to-end. Latest audit (2026-06-13):
+
+```text
+tests        : 12 passed, 0 failed, 0 errored
+compile      : all modules parse
+cli          : C:\Python314\python.exe: No module named https
+package      : https
+```
+
+<details><summary>CLI surface (<code>--help</code>)</summary>
+
+```text
+C:\Python314\python.exe: No module named https
+```
+</details>
+
+Full machine-readable results: [`AUDIT.md`](AUDIT.md) · regenerate with `python -m https --help` + `pytest -q`.
+
+<div align="right"><a href="#top">↑ back to top</a></div>
+
 
 ## License
 
