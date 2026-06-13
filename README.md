@@ -11,6 +11,31 @@
 
 The Cognis Neural Suite is **288 public, single-purpose, self-hostable, MCP-native tools** across **28 domains**. This repo is the one place to discover and install all of them — from one tool to an entire domain to the whole arsenal — using whatever package manager you already speak.
 
+## Usage — step by step
+
+1. **Run the guided wizard** — no install needed; it detects your OS and backends (pip/pipx/git/docker) and shows every command before running it:
+   ```bash
+   python install.py setup     # after pip install: cognis-arsenal setup
+   ```
+2. **Browse the catalog** of all 288 tools, or search for one:
+   ```bash
+   cognis-arsenal list
+   cognis-arsenal search rag
+   ```
+3. **Install a tool, a whole domain, or everything** — pick the install method with `--method`:
+   ```bash
+   cognis-arsenal ragshield --method pipx
+   cognis-arsenal security --method pip      # an entire domain
+   ```
+4. **Preview without installing** using `--dry-run` (prints the exact commands it would run):
+   ```bash
+   cognis-arsenal all --method pip --dry-run
+   ```
+5. **Bootstrap on a fresh box** with the one-liner (no checkout needed):
+   ```bash
+   curl -fsSL https://raw.githubusercontent.com/cognis-digital/cognis-arsenal/master/setup.sh | bash
+   ```
+
 ## Get started — just run the wizard
 
 **New here? Don't memorize anything. Run the guided setup wizard:**
