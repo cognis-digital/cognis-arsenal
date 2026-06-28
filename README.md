@@ -11,6 +11,241 @@
 
 The Cognis Neural Suite is **288 public, single-purpose, self-hostable, MCP-native tools** across **28 domains**. This repo is the one place to discover and install all of them — from one tool to an entire domain to the whole arsenal — using whatever package manager you already speak.
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+Real, reproducible output from the tool — runs offline:
+
+```console
+$ cognis-arsenal --version
+cognis-arsenal 1.0.0
+```
+
+```console
+$ cognis-arsenal --help
+usage: cognis-arsenal [-h] [--version] {setup,list,search,install} ...
+
+Installer + index for the Cognis Neural Suite.
+
+positional arguments:
+  {setup,list,search,install}
+    setup               launch the guided setup wizard (recommended)
+    list                list every tool, grouped by domain
+    search              search tools by name/domain/description
+    install             install <tool|domain|all>
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+```
+
+```console
+$ cognis-arsenal list
+Cognis Arsenal — 288 tools across 28 domains
+
+AI Agents & LLMOps (9)
+  agentsmith
+  engram
+  evalbench
+  memorybank
+  modelroute
+  promptpack
+  ragkit
+  skillhub
+  toolguard
+
+AI Security & Governance (17)
+  adversa
+  aegis
+  agentlog
+  agentmap
+  agenttax
+  aicard
+  biascope
+  guardpost
+  hallumark
+  ledgermind
+  mcpauth
+  mcpharden
+  mcpscan
+  promptmirror
+  ragshield
+  ssrfmcp
+  trustgate
+
+Application Security (10)
+  apkpeek
+  binhunt
+  cheatsense
+  dastlite
+  deeplinkfuzz
+  hookcraft
+  ipasnitch
+  pincheck
+  sbomx
+  semsift
+
+Blue Team (6)
+  canarynet
+  edrgap
+  honeytrace
+  phishforge
+  sbomgate
+  sentrylog
+
+Business Development (10)
+  coldforge
+  crmsync
+  dealflow
+  dripcheck
+  enrichr
+  introbot
+  pactgen
+  partnermap
+  raisedeck
+  warmline
+
+Business Ops (10)
+  boardroom
+  churnlens
+  invoctl
+  leadforge
+  meetingcost
+  orgchart
+  paywatch
+  quotecraft
+  runbookgen
+  seataudit
+
+Compliance & GRC (8)
+  accessreview
+  auditrail
+  dpiaforge
+  frameworkmap
+  gdprkit
+  policyforge
+  soc2box
+  vendorvet
+
+Data & Datasets (8)
+  csvlens
+  datasetcard
+  duckprobe
+  embedaudit
+  lineagemap
+  piiscan
+  schemadrift
+  seedforge
+
+Defense & IC (12)
+  airgap-pkg
+  classmark
+  comint-osquery
+  convoy-or
+  geoaoi-pro
+  honeypot-mil
+  readiness-rms
+  redforge-c2
+  rmf-package
+  scifops
+  sigsurvey-rf
+  stigsentry
+
+Defense Tech (15)
+  adsbwatch
+  basemap
+  classguard
+  convoyplan
+  ewcorr
+  geoaoi
+  itarcheck
+  milstdlint
+  natosymbol
+  opsecscan
+  readiness
+  rfsurvey
+  sigmeta
+  threatmodeler
+  uaslog
+
+DevOps & Observability (6)
+  alertmux
+  cloudbill
+  k8scost
+  otelbox
+  probesite
+  statuskit
+
+Developer Tools (10)
+  apidiff
+  codeglance
+  envdoctor
+  flakefinder
+  gitstory
+  licenselens
+  mcpforge
+  promptlint
+  shipcheck
+  tokenmeter
+
+Federal & Compliance (6)
+  checkpoint-ai
+  clearancepath
+  cmmcmap
+  fedramplens
+  gsafinder
+  sbirscout
+
+FinTech (10)
+  chargeguard
+  fraudlens
+  iso20022
+  ledgerproof
+  obscan
+  panhound
+  sanctscan
+  tokenvault
+  txgraph
+  webhookvty
+
+Flagship (19)
+  agentpassport
+  cloud-setups
+  cognis-code
+  cognis-devbox
+  cognis-operations
+  cognis-sources
+  compliance-atlas
+  hermes
+  locateanything
+  mcpify
+  omni-install
+  privacyspoof
+  quantumready
+  repo-roast
+  setup-scripts
+  skills
+  templates
+  uncensored-fleet
+  windows-toolkit
+
+Healthcare (10)
+  baadiff
+  codemap
+  consentledger
+  deidproof
+  dicomsweep
+  fhirlint
+  hl7tap
+  phiscrub
+
+```
+
+> Blocks above are real `cognis-arsenal` output — reproduce them from a clone.
+
+<!-- cognis:example:end -->
+
 ## Usage — step by step
 
 1. **Run the guided wizard** — no install needed; it detects your OS and backends (pip/pipx/git/docker) and shows every command before running it:

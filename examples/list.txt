@@ -1,0 +1,200 @@
+$ cognis-arsenal list
+
+Cognis Arsenal — 288 tools across 28 domains
+
+AI Agents & LLMOps (9)
+  agentsmith
+  engram
+  evalbench
+  memorybank
+  modelroute
+  promptpack
+  ragkit
+  skillhub
+  toolguard
+
+AI Security & Governance (17)
+  adversa
+  aegis
+  agentlog
+  agentmap
+  agenttax
+  aicard
+  biascope
+  guardpost
+  hallumark
+  ledgermind
+  mcpauth
+  mcpharden
+  mcpscan
+  promptmirror
+  ragshield
+  ssrfmcp
+  trustgate
+
+Application Security (10)
+  apkpeek
+  binhunt
+  cheatsense
+  dastlite
+  deeplinkfuzz
+  hookcraft
+  ipasnitch
+  pincheck
+  sbomx
+  semsift
+
+Blue Team (6)
+  canarynet
+  edrgap
+  honeytrace
+  phishforge
+  sbomgate
+  sentrylog
+
+Business Development (10)
+  coldforge
+  crmsync
+  dealflow
+  dripcheck
+  enrichr
+  introbot
+  pactgen
+  partnermap
+  raisedeck
+  warmline
+
+Business Ops (10)
+  boardroom
+  churnlens
+  invoctl
+  leadforge
+  meetingcost
+  orgchart
+  paywatch
+  quotecraft
+  runbookgen
+  seataudit
+
+Compliance & GRC (8)
+  accessreview
+  auditrail
+  dpiaforge
+  frameworkmap
+  gdprkit
+  policyforge
+  soc2box
+  vendorvet
+
+Data & Datasets (8)
+  csvlens
+  datasetcard
+  duckprobe
+  embedaudit
+  lineagemap
+  piiscan
+  schemadrift
+  seedforge
+
+Defense & IC (12)
+  airgap-pkg
+  classmark
+  comint-osquery
+  convoy-or
+  geoaoi-pro
+  honeypot-mil
+  readiness-rms
+  redforge-c2
+  rmf-package
+  scifops
+  sigsurvey-rf
+  stigsentry
+
+Defense Tech (15)
+  adsbwatch
+  basemap
+  classguard
+  convoyplan
+  ewcorr
+  geoaoi
+  itarcheck
+  milstdlint
+  natosymbol
+  opsecscan
+  readiness
+  rfsurvey
+  sigmeta
+  threatmodeler
+  uaslog
+
+DevOps & Observability (6)
+  alertmux
+  cloudbill
+  k8scost
+  otelbox
+  probesite
+  statuskit
+
+Developer Tools (10)
+  apidiff
+  codeglance
+  envdoctor
+  flakefinder
+  gitstory
+  licenselens
+  mcpforge
+  promptlint
+  shipcheck
+  tokenmeter
+
+Federal & Compliance (6)
+  checkpoint-ai
+  clearancepath
+  cmmcmap
+  fedramplens
+  gsafinder
+  sbirscout
+
+FinTech (10)
+  chargeguard
+  fraudlens
+  iso20022
+  ledgerproof
+  obscan
+  panhound
+  sanctscan
+  tokenvault
+  txgraph
+  webhookvty
+
+Flagship (19)
+  agentpassport
+  cloud-setups
+  cognis-code
+  cognis-devbox
+  cognis-operations
+  cognis-sources
+  compliance-atlas
+  hermes
+  locateanything
+  mcpify
+  omni-install
+  privacyspoof
+  quantumready
+  repo-roast
+  setup-scripts
+  skills
+  templates
+  uncensored-fleet
+  windows-toolkit
+
+Healthcare (10)
+  baadiff
+  codemap
+  consentledger
+  deidproof
+  dicomsweep
+  fhirlint
+  hl7tap
+  phiscrub
+

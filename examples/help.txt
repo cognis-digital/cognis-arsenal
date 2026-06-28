@@ -1,0 +1,16 @@
+$ cognis-arsenal --help
+
+usage: cognis-arsenal [-h] [--version] {setup,list,search,install} ...
+
+Installer + index for the Cognis Neural Suite.
+
+positional arguments:
+  {setup,list,search,install}
+    setup               launch the guided setup wizard (recommended)
+    list                list every tool, grouped by domain
+    search              search tools by name/domain/description
+    install             install <tool|domain|all>
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit

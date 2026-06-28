@@ -1,0 +1,3 @@
+$ cognis-arsenal --version
+
+cognis-arsenal 1.0.0
